@@ -34,6 +34,18 @@ export const GlobalContextProvider = (props) => {
     dispatch({ type: 'REMOVE_FROM_WATCHLIST', payload: id })
   }
 
+  const addToWatched = (movie) => {
+    dispatch({ type: 'ADD_TO_WATCHED', payload: movie })
+  };
+
+  const moveToWatchlist = (movie) => {
+    dispatch({ type: 'MOVE_TO_WATCHLIST', payload: movie })
+  };
+
+  const removeFromWatched = (id) => {
+    dispatch({ type: 'REMOVE_FROM_WATCHED', payload: id })
+  }
+
   return (
     <div>
       <GlobalContext.Provider
@@ -42,6 +54,9 @@ export const GlobalContextProvider = (props) => {
           watchlist: state.watchlist,
           addToWatchlist,
           removeFromWatchlist,
+          addToWatched,
+          moveToWatchlist,
+          removeFromWatched,
         }}
       >
         {props.children}

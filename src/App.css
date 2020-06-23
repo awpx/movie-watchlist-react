@@ -1,9 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700;900&display=swap");
 
 :root {
-  --primary: #032541;
-  --secondary: #21d07a;
-  --white: #fff;
+  --primary: #212134;
+  --secondary: #7B6DCC;
+  --white: #B1ADC7;
 }
 
 body {
@@ -58,7 +58,7 @@ body {
 }
 
 .btn:hover {
-  background-color: #1aa762;
+  background-color: #789BF1;
   opacity: 1;
   cursor: pointer;
 }
@@ -207,7 +207,7 @@ header .nav-links li:last-child {
 }
 
 .movie-page .heading {
-  color: var(--primary);
+  color: #54546A;
   margin: 0;
 }
 
