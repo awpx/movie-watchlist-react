@@ -1,4 +1,4 @@
-# Simple watchlist app using ract and TMDB API
+# Simple watchlist app using react and TMDB API
 
 Live Demo [Click Here](https://awp-watchlist-film.herokuapp.com/)
 
